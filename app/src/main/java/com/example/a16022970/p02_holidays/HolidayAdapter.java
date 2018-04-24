@@ -39,7 +39,6 @@ public class HolidayAdapter extends ArrayAdapter<Holidays> {
         tvDate = (TextView) rowView.findViewById(R.id.tvDate);
         iv = (ImageView) rowView.findViewById(R.id.imageView);
 
-
         Holidays currentHol = holiday.get(position);
 
         tvName.setText(currentHol.getName());
